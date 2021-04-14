@@ -23,7 +23,7 @@ Import-Module scanner.ps1
 That can be used on its own:
 
 ```ps
-Test-Port hb1.digi.ninja 443 1000
+Test-Port digi.ninja 443 1000
 ```
 
-Check hb1.digi.ninja port 443 and with a 1000ms (1second) timeout. The timeout parameter is optional.
+Check digi.ninja port 443 and with a 1000ms (1second) timeout. The timeout parameter is optional.

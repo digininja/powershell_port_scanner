@@ -26,7 +26,7 @@ That can be used on its own:
 Test-Port digi.ninja 443 1000
 ```
 
-Check digi.ninja port 443 and with a 1000ms (1second) timeout. The timeout parameter is optional.
+Check digi.ninja port 443 and with a 1000ms (1 second) timeout. The timeout parameter is optional.
 
 ## Pull Requests and Improvements
 

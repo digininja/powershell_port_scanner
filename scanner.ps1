@@ -1,11 +1,16 @@
-# To use the scanner module, import-module scanner.ps1
-# That can be used on its own:
+# To use:
+# Import-Module scanner.ps1
+
+# Usage:
 # Test-Port digi.ninja 443 1000
-# Check digi.ninja port 443 and with a 1000ms (1second) timeout
+# 
+# Checks digi.ninja port 443 and with a 1000ms (1 second) timeout.
+# Port is optional, defaults to 80.
+# Timeout is optional, defaults to 1 second.
 
 function Test-Port
 {
-    Param([string]$ComputerName,$port = 5985,$timeout = 1000)
+    Param([string]$ComputerName,$port = 80,$timeout = 1000)
  
     try
     {
